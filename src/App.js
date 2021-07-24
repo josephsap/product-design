@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div>
+    <main>
+			<div class="content">
+				<p>Before you lies an internet page that will house some cool  <a> Product Design</a> goodness. <br /><br />I mean, <a>it's  so hot</a> right now. <br /><br /><a>Stay tuned for  more info</a>.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+			</div>
+		</main>
+		<svg class="cursor" width="280" height="280" viewBox="0 0 280 280">
+			<defs>
+				<filter id="filter-1" x="-50%" y="-50%" width="200%" height="200%" 
+				filterUnits="objectBoundingBox">
+					<feTurbulence type="fractalNoise" baseFrequency="0.02 0.15" numOctaves="3" result="warp" />
+					<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="0" in="SourceGraphic" in2="warp" />
+				</filter>
+			</defs>
+			<circle class="cursor__inner" cx="140" cy="140" r="50"/>
+		</svg>
     </div>
   );
 }
