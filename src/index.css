@@ -157,6 +157,19 @@ a:focus {
 	display: none;
 }
 
+.button {
+
+	padding: 25px 30px;
+	border-radius: 40px;
+	background-color: #ff7a7a;
+	color: #4e4e4e;
+	font-size: 14px;
+	font-family: soleil, sans-serif;
+	
+}
+
+
+
 @media screen and (min-width: 53em) {
 	.frame {
 		position: fixed;

@@ -2,6 +2,13 @@ function App() {
   return (
     <div>
     <main>
+
+		<div>
+
+		<a href="mailto:shaz@thesupply.com?subject=From product.design website" class="button">Contact</a>
+		</div>
+
+		
 			<div class="content">
 				<p>Before you lies an internet page that will house some cool  <a> Product Design</a> goodness. <br /><br />I mean, <a>it's  so hot</a> right now. <br /><br /><a>Stay tuned for  more info</a>.
         </p>
@@ -18,6 +25,10 @@ function App() {
 			<circle class="cursor__inner" cx="140" cy="140" r="50"/>
 		</svg>
     </div>
+	
+
+
+
   );
 }
 
