@@ -3,10 +3,7 @@ function App() {
     <div>
     <main>
 
-		<div>
-
 		<a href="mailto:shaz@thesupply.com?subject=From product.design website" class="button">Contact</a>
-		</div>
 
 		
 			<div class="content">
