@@ -2,13 +2,16 @@ function App() {
   return (
     <div>
     <main>
-
-		<a href="mailto:shaz@thesupply.com?subject=From product.design website" class="button">Contact</a>
-
-		
 			<div class="content">
-				<p>Before you lies an internet page that will house some cool  <a> Product Design</a> goodness. <br /><br />I mean, <a>it's  so hot</a> right now. <br /><br /><a>Stay tuned for  more info</a>.
+				<p>Before you lies an internet page that will house some cool  <a> Product Design</a> goodness. <br /><br />I mean, <a>it's  so hot</a> right now. <br /><br />
+					<div class="tuned">
+						<a>Stay tuned for  more info</a>
+						<div class="button-wrapper">
+								<a href="mailto:shaz@thesupply.com?subject=From product.design website" class="button">Contact</a>
+							</div>
+					</div>
         </p>
+				
 			</div>
 		</main>
 		<svg class="cursor" width="280" height="280" viewBox="0 0 280 280">
